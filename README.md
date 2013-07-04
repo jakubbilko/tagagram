@@ -33,7 +33,7 @@ tagName - name of the tag to fetch
 
 mode - this has three possible values: 'single' - fetches a single page of results, 'multiPage' - fetches multiple pages of results, 'all' - fetches all images for the tag
 
-limit - used when 'single' mode is set, limits the numbef of fetched pictures
+limit - used when 'single' mode is set, limits the number of fetched pictures
 
 pageCount - used when 'multiPage' mode is set, sets the number of pages you want to retreive
 
