@@ -10,3 +10,6 @@ Include the script in your HEAD tag:
 
     <script type="text/javscript" src="tagagram.js"></script>
     
+## Usage
+
+    $('#container').getTaggedMedia(options)
