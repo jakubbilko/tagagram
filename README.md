@@ -13,3 +13,16 @@ Include the script in your HEAD tag:
 ## Usage
 
     $('#container').getTaggedMedia(options)
+
+## Plugin options
+
+You can specify options for the plugin:
+
+    $('#container').getTaggedMedia({
+        clientId: '123456',
+        tagName: 'test',
+        mode: 'single',
+        limit: 20,
+        pageCount: 1,
+        template: '<a href="{link}"><img src="{low_resolution}" alt="" /></a>'
+    });
