@@ -98,7 +98,7 @@
 		elem = elem.replace('{low_resolution}', element.images.low_resolution.url);
 		elem = elem.replace('{thumbnail}', element.images.thumbnail.url);
 		elem = elem.replace('{standard_resolution}', element.images.standard_resolution.url);
-		elem = elem.replace('{caption}', element.caption.text);
+		if(element.caption) elem = elem.replace('{caption}', element.caption.text);
 		elem = elem.replace('{likes}', element.likes.count);
 		return elem;
 	}
