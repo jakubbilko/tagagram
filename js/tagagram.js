@@ -1,6 +1,6 @@
 /*!
 * jQuery tagagram Plugin v0.1.0
-* https://github.com/kozulowski/tagagram
+* https://github.com/jakubbilko/tagagram
 *
 * Copyright 2013 Jakub Bilko
 * Released under the MIT license
